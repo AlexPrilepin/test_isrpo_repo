@@ -14,7 +14,7 @@ def area(a):
     if a < 0:
       raise ValueError("Число не может быть отрицательным")
 
-    return a * a
+    return a * a * 52
 
 
 def perimeter(a):
@@ -33,3 +33,4 @@ def perimeter(a):
       raise ValueError("Число не может быть отрицательным")
     
     return 4 * a
+
